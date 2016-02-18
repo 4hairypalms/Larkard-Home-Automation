@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Lockard_PiComAPI.iml" filepath="$PROJECT_DIR$/Lockard_PiComAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PiCom Java API.iml" filepath="$PROJECT_DIR$/PiCom Java API.iml" />
     </modules>
   </component>
 </project>

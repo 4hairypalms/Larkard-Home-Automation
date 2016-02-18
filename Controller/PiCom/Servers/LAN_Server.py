@@ -97,7 +97,6 @@ class Client(threading.Thread, Responder):
                     return payload
                 return res_payload
 
-                # return self.process_payload(payload)
             else:
                 # 2.2 If delegation is disabled, and the role can't be handled, then
                 #     a error response will be sent telling the client 'Wrong Node'.

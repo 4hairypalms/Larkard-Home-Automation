@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be25554d-7ed9-48a5-96d0-66621e735c2c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/PiComAPI/PiCom.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PiComAPI/LANClient.class" afterPath="$PROJECT_DIR$/target/classes/PiComAPI/LANClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PiComAPI/Payload/PayloadEvent.class" afterPath="$PROJECT_DIR$/target/classes/PiComAPI/Payload/PayloadEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PiComAPI/TCPTestClient.class" afterPath="$PROJECT_DIR$/target/classes/PiComAPI/TCPTestClient.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lockard_PiComAPI.iml" afterPath="$PROJECT_DIR$/PiCom Java API.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PiComAPI/TCPTestClient$1.class" afterPath="$PROJECT_DIR$/target/classes/PiComAPI/TCPTestClient$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Controller/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Controller/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PiComAPI/LANClient.java" afterPath="$PROJECT_DIR$/src/main/java/PiComAPI/LANClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PiComAPI/LANClientHandler.java" afterPath="$PROJECT_DIR$/src/main/java/PiComAPI/LANClientHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PiComAPI/Payload/PayloadEvent.java" afterPath="$PROJECT_DIR$/src/main/java/PiComAPI/Payload/PayloadEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PiComAPI/Payload/PayloadIntr.java" afterPath="$PROJECT_DIR$/src/main/java/PiComAPI/Payload/PayloadIntr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PiComAPI/TCPTestClient.java" afterPath="$PROJECT_DIR$/src/main/java/PiComAPI/TCPTestClient.java" />
     </list>
     <ignored path="Lockard_PiComAPI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,14 +40,101 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TCPTestClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JAVA/PiComAPI" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/PiComAPI">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>PiComAPI</OriginalElement>
+              <nodes>
+                <node x="1177.0" y="219.5">PiComAPI.Payload.MalformedPayloadException</node>
+                <node x="383.99999999999994" y="1050.0">PiComAPI.TCPTestClient</node>
+                <node x="971.0" y="149.5">PiComAPI.Payload.PayloadType</node>
+                <node x="321.99999999999994" y="715.5">PiComAPI.LANClientHandler</node>
+                <node x="154.0" y="138.5">PiComAPI.Payload.PayloadIntr</node>
+                <node x="0.0" y="611.0">PiComAPI.LANClient</node>
+                <node x="504.99999999999994" y="0.0">PiComAPI.Payload.PayloadEvent</node>
+                <node x="810.0" y="1050.0">PiComAPI.TCPTestServer</node>
+                <node x="1180.0" y="992.0">PiComAPI.ComUtils</node>
+                <node x="638.0" y="542.0">PiComAPI.Payload.Payload</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="PiComAPI.Payload.Payload" target="PiComAPI.Payload.PayloadType">
+                  <point x="64.5" y="-200.0" />
+                  <point x="960.5" y="517.0" />
+                  <point x="1064.0" y="517.0" />
+                  <point x="0.0" y="96.5" />
+                </edge>
+                <edge source="PiComAPI.ComUtils" target="PiComAPI.Payload.Payload">
+                  <point x="-70.0" y="-84.5" />
+                  <point x="1250.0" y="967.0" />
+                  <point x="1068.0" y="967.0" />
+                  <point x="172.0" y="200.0" />
+                </edge>
+                <edge source="PiComAPI.Payload.Payload" target="PiComAPI.Payload.PayloadEvent">
+                  <point x="-64.5" y="-200.0" />
+                  <point x="831.5" y="517.0" />
+                  <point x="728.0" y="517.0" />
+                  <point x="0.0" y="246.0" />
+                </edge>
+                <edge source="PiComAPI.TCPTestClient" target="PiComAPI.LANClient">
+                  <point x="-57.33333333333337" y="-26.5" />
+                  <point x="412.6666666666666" y="967.0" />
+                  <point x="151.0" y="967.0" />
+                  <point x="0.0" y="131.0" />
+                </edge>
+                <edge source="PiComAPI.Payload.Payload" target="PiComAPI.Payload.PayloadIntr">
+                  <point x="-193.5" y="-200.0" />
+                  <point x="702.5" y="517.0" />
+                  <point x="319.5" y="517.0" />
+                  <point x="0.0" y="107.5" />
+                </edge>
+                <edge source="PiComAPI.TCPTestClient" target="PiComAPI.LANClientHandler">
+                  <point x="0.0" y="-26.5" />
+                  <point x="0.0" y="26.5" />
+                </edge>
+                <edge source="PiComAPI.Payload.Payload" target="PiComAPI.Payload.MalformedPayloadException">
+                  <point x="193.5" y="-200.0" />
+                  <point x="1089.5" y="517.0" />
+                  <point x="1248.0" y="517.0" />
+                  <point x="-71.0" y="26.5" />
+                </edge>
+                <edge source="PiComAPI.ComUtils" target="PiComAPI.Payload.MalformedPayloadException">
+                  <point x="70.00000000000006" y="-84.5" />
+                  <point x="71.00000000000006" y="26.5" />
+                </edge>
+                <edge source="PiComAPI.TCPTestClient" target="PiComAPI.Payload.Payload">
+                  <point x="57.33333333333337" y="-26.5" />
+                  <point x="527.3333333333333" y="967.0" />
+                  <point x="724.0" y="967.0" />
+                  <point x="-172.0" y="200.0" />
+                </edge>
+                <edge source="PiComAPI.TCPTestServer" target="PiComAPI.Payload.Payload">
+                  <point x="0.0" y="-26.5" />
+                  <point x="0.0" y="200.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.7451312447078747" x="731.4011363636364" y="580.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TCPTestClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PiComAPI/TCPTestClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17177914">
+            <state vertical-scroll-proportion="0.0">
               <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#800#813#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,7 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -300,6 +380,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,7 +391,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last.edited.regexp" value="{&quot;12&quot;:213&#10;}" />
     <property name="SearchEverywhereHistoryKey" value="new cl&#9;ACTION&#9;NewClass&#10;new c&#9;ACTION&#9;NewClass" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Pictures/Lockard_java_PiCom_Api.png" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -972,12 +1053,21 @@
       <workItem from="1455492883730" duration="710000" />
       <workItem from="1455493729709" duration="605000" />
       <workItem from="1455494575762" duration="163000" />
-      <workItem from="1455494759771" duration="658000" />
+      <workItem from="1455494759771" duration="695000" />
+      <workItem from="1455516320547" duration="296000" />
+      <workItem from="1455517006456" duration="158000" />
     </task>
+    <task id="LOCAL-00001" summary="Add Comments">
+      <created>1455495450106</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1455495450106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58075000" />
+    <option name="totallyTimeSpent" value="58566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1279" y="25" width="1922" height="1056" extended-state="6" />
@@ -985,12 +1075,10 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32119915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18690096" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27087796" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17678382" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -999,13 +1087,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32119915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27087796" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1044,6 +1134,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Comments" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -1055,6 +1149,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PiComAPI/Payload/PayloadEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PiComAPI/TCPTestServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1069,7 +1171,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#800#813#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1096,7 +1197,6 @@
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#800#813#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1472,12 +1572,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PiComAPI/TCPTestClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17177914">
+        <state vertical-scroll-proportion="0.0">
           <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#800#813#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/PiComAPI">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>PiComAPI</OriginalElement>
+          <nodes>
+            <node x="1177.0" y="219.5">PiComAPI.Payload.MalformedPayloadException</node>
+            <node x="383.99999999999994" y="1050.0">PiComAPI.TCPTestClient</node>
+            <node x="971.0" y="149.5">PiComAPI.Payload.PayloadType</node>
+            <node x="321.99999999999994" y="715.5">PiComAPI.LANClientHandler</node>
+            <node x="154.0" y="138.5">PiComAPI.Payload.PayloadIntr</node>
+            <node x="0.0" y="611.0">PiComAPI.LANClient</node>
+            <node x="504.99999999999994" y="0.0">PiComAPI.Payload.PayloadEvent</node>
+            <node x="810.0" y="1050.0">PiComAPI.TCPTestServer</node>
+            <node x="1180.0" y="992.0">PiComAPI.ComUtils</node>
+            <node x="638.0" y="542.0">PiComAPI.Payload.Payload</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="PiComAPI.Payload.Payload" target="PiComAPI.Payload.PayloadType">
+              <point x="64.5" y="-200.0" />
+              <point x="960.5" y="517.0" />
+              <point x="1064.0" y="517.0" />
+              <point x="0.0" y="96.5" />
+            </edge>
+            <edge source="PiComAPI.ComUtils" target="PiComAPI.Payload.Payload">
+              <point x="-70.0" y="-84.5" />
+              <point x="1250.0" y="967.0" />
+              <point x="1068.0" y="967.0" />
+              <point x="172.0" y="200.0" />
+            </edge>
+            <edge source="PiComAPI.Payload.Payload" target="PiComAPI.Payload.PayloadEvent">
+              <point x="-64.5" y="-200.0" />
+              <point x="831.5" y="517.0" />
+              <point x="728.0" y="517.0" />
+              <point x="0.0" y="246.0" />
+            </edge>
+            <edge source="PiComAPI.TCPTestClient" target="PiComAPI.LANClient">
+              <point x="-57.33333333333337" y="-26.5" />
+              <point x="412.6666666666666" y="967.0" />
+              <point x="151.0" y="967.0" />
+              <point x="0.0" y="131.0" />
+            </edge>
+            <edge source="PiComAPI.Payload.Payload" target="PiComAPI.Payload.PayloadIntr">
+              <point x="-193.5" y="-200.0" />
+              <point x="702.5" y="517.0" />
+              <point x="319.5" y="517.0" />
+              <point x="0.0" y="107.5" />
+            </edge>
+            <edge source="PiComAPI.TCPTestClient" target="PiComAPI.LANClientHandler">
+              <point x="0.0" y="-26.5" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="PiComAPI.Payload.Payload" target="PiComAPI.Payload.MalformedPayloadException">
+              <point x="193.5" y="-200.0" />
+              <point x="1089.5" y="517.0" />
+              <point x="1248.0" y="517.0" />
+              <point x="-71.0" y="26.5" />
+            </edge>
+            <edge source="PiComAPI.ComUtils" target="PiComAPI.Payload.MalformedPayloadException">
+              <point x="70.00000000000006" y="-84.5" />
+              <point x="71.00000000000006" y="26.5" />
+            </edge>
+            <edge source="PiComAPI.TCPTestClient" target="PiComAPI.Payload.Payload">
+              <point x="57.33333333333337" y="-26.5" />
+              <point x="527.3333333333333" y="967.0" />
+              <point x="724.0" y="967.0" />
+              <point x="-172.0" y="200.0" />
+            </edge>
+            <edge source="PiComAPI.TCPTestServer" target="PiComAPI.Payload.Payload">
+              <point x="0.0" y="-26.5" />
+              <point x="0.0" y="200.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7451312447078747" x="731.4011363636364" y="580.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50266ce6-e46a-4df1-a459-1514df78785c" name="Default" comment="Re-designed how connections are made. General fixes">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lockard_PiComAPI/src/main/java/PiComAPI/PiCom.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lockard_PiComAPI/target/classes/PiComAPI/LANClient.class" afterPath="$PROJECT_DIR$/../Lockard_PiComAPI/target/classes/PiComAPI/LANClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lockard_PiComAPI/target/classes/PiComAPI/Payload/PayloadEvent.class" afterPath="$PROJECT_DIR$/../Lockard_PiComAPI/target/classes/PiComAPI/Payload/PayloadEvent.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PiCom/Jobs/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lockard_PiComAPI/Lockard_PiComAPI.iml" afterPath="$PROJECT_DIR$/../Lockard_PiComAPI/PiCom Java API.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lockard_PiComAPI/target/classes/PiComAPI/TCPTestClient$1.class" afterPath="$PROJECT_DIR$/../Lockard_PiComAPI/target/classes/PiComAPI/TCPTestClient$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lockard_PiComAPI/target/classes/PiComAPI/TCPTestClient.class" afterPath="$PROJECT_DIR$/../Lockard_PiComAPI/target/classes/PiComAPI/TCPTestClient.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PiCom/Servers/LAN_Server.py" afterPath="$PROJECT_DIR$/PiCom/Servers/LAN_Server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lockard_PiComAPI/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Lockard_PiComAPI/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lockard_PiComAPI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lockard_PiComAPI/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lockard_PiComAPI/src/main/java/PiComAPI/LANClient.java" afterPath="$PROJECT_DIR$/../Lockard_PiComAPI/src/main/java/PiComAPI/LANClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lockard_PiComAPI/src/main/java/PiComAPI/LANClientHandler.java" afterPath="$PROJECT_DIR$/../Lockard_PiComAPI/src/main/java/PiComAPI/LANClientHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lockard_PiComAPI/src/main/java/PiComAPI/Payload/PayloadEvent.java" afterPath="$PROJECT_DIR$/../Lockard_PiComAPI/src/main/java/PiComAPI/Payload/PayloadEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lockard_PiComAPI/src/main/java/PiComAPI/Payload/PayloadIntr.java" afterPath="$PROJECT_DIR$/../Lockard_PiComAPI/src/main/java/PiComAPI/Payload/PayloadIntr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lockard_PiComAPI/src/main/java/PiComAPI/TCPTestClient.java" afterPath="$PROJECT_DIR$/../Lockard_PiComAPI/src/main/java/PiComAPI/TCPTestClient.java" />
     </list>
     <ignored path="Controller.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,29 +22,30 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="true" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Controller$Server.coverage" NAME="Server Coverage Results" MODIFIED="1454813905204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PiCom" />
+    <SUITE FILE_PATH="coverage/Controller$DataUtils.coverage" NAME="DataUtils Coverage Results" MODIFIED="1455170481056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Payload" />
+    <SUITE FILE_PATH="coverage/Controller$Unittests_in_Controller__1_.coverage" NAME="Unittests in Controller (1) Coverage Results" MODIFIED="1454989602936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Controller$Transceiver.coverage" NAME="Transceiver Coverage Results" MODIFIED="1454795795021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PiCom" />
+    <SUITE FILE_PATH="coverage/Controller$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1455173370457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deligation" />
+    <SUITE FILE_PATH="coverage/Controller$client_test.coverage" NAME="client_test Coverage Results" MODIFIED="1455494475721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Controller$TestClient.coverage" NAME="TestClient Coverage Results" MODIFIED="1454880006805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PiCom/Servers" />
+    <SUITE FILE_PATH="coverage/Controller$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1454809301803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PiCom" />
+    <SUITE FILE_PATH="coverage/Controller$LANClient.coverage" NAME="LANClient Coverage Results" MODIFIED="1455170926424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Clients" />
     <SUITE FILE_PATH="coverage/Controller$Unittests_in_PayloadTests.coverage" NAME="Unittests in PayloadTests Coverage Results" MODIFIED="1455452616649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Controller$WSServer.coverage" NAME="WSServer Coverage Results" MODIFIED="1455789438506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PiCom/Servers" />
     <SUITE FILE_PATH="coverage/Controller$Unittests_in_Controller.coverage" NAME="Unittests in Controller Coverage Results" MODIFIED="1455344872041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Controller$DataObject.coverage" NAME="DataObject Coverage Results" MODIFIED="1454806190302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PiCom" />
     <SUITE FILE_PATH="coverage/Controller$LAN.coverage" NAME="LAN Coverage Results" MODIFIED="1455486886898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PiCom/Servers" />
     <SUITE FILE_PATH="coverage/Controller$Unittests_in_setup.coverage" NAME="Unittests in setup Coverage Results" MODIFIED="1455174968851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Controller$Server.coverage" NAME="Server Coverage Results" MODIFIED="1454813905204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PiCom" />
-    <SUITE FILE_PATH="coverage/Controller$DataUtils.coverage" NAME="DataUtils Coverage Results" MODIFIED="1455170481056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Payload" />
     <SUITE FILE_PATH="coverage/Controller$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1455253604843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Payload" />
     <SUITE FILE_PATH="coverage/Controller$PayloadObject.coverage" NAME="PayloadObject Coverage Results" MODIFIED="1454995655319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PiCom" />
-    <SUITE FILE_PATH="coverage/Controller$Unittests_in_Controller__1_.coverage" NAME="Unittests in Controller (1) Coverage Results" MODIFIED="1454989602936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Controller$Transceiver.coverage" NAME="Transceiver Coverage Results" MODIFIED="1454795795021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PiCom" />
     <SUITE FILE_PATH="coverage/Controller$Client.coverage" NAME="Client Coverage Results" MODIFIED="1454987272864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PiCom" />
-    <SUITE FILE_PATH="coverage/Controller$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1455173370457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deligation" />
     <SUITE FILE_PATH="coverage/Controller$Reciever.coverage" NAME="Reciever Coverage Results" MODIFIED="1455257151998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Servers" />
     <SUITE FILE_PATH="coverage/Controller$Unittests_in_PayloadTest.coverage" NAME="Unittests in PayloadTests Coverage Results" MODIFIED="1455385424259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Controller$WebSocket.coverage" NAME="WebSocket Coverage Results" MODIFIED="1454880002962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PiCom/Servers" />
     <SUITE FILE_PATH="coverage/Controller$WebConnect.coverage" NAME="WebConnect Coverage Results" MODIFIED="1454823228526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PiCom/Servers" />
     <SUITE FILE_PATH="coverage/Controller$test.coverage" NAME="test Coverage Results" MODIFIED="1455494486856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Controller$Test.coverage" NAME="Test Coverage Results" MODIFIED="1454826979186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Controller$client_test.coverage" NAME="client_test Coverage Results" MODIFIED="1455494475721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Controller$TestClient.coverage" NAME="TestClient Coverage Results" MODIFIED="1454880006805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PiCom/Servers" />
-    <SUITE FILE_PATH="coverage/Controller$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1454809301803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PiCom" />
-    <SUITE FILE_PATH="coverage/Controller$LANClient.coverage" NAME="LANClient Coverage Results" MODIFIED="1455170926424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Clients" />
     <SUITE FILE_PATH="coverage/Controller$PiDiscovery.coverage" NAME="PiDiscovery Coverage Results" MODIFIED="1455175030197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deligation" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -61,6 +57,12 @@
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -68,10 +70,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2820513">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
@@ -80,14 +82,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client_test.py">
+      <file leaf-file-name="WSServer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PiCom/Servers/WSServer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PiCom/Clients/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/PiCom/Servers/LAN_Server.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <element signature="e#391#1706#1" expanded="false" />
@@ -105,46 +115,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PiCom/Delegation/__init__.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PiCom/Jobs/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PiCom/Servers/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LAN_Client.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PiCom/Clients/LAN_Client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.97458565">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
-                <element signature="e#411#892#0" expanded="false" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Structure.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PiCom/Data/Structure.py">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/255816a9-1f7f-4a1e-a100-e2372f931f88/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-              <folding>
-                <element signature="e#313#414#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,8 +143,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Setup Script" />
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -172,8 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PiCom/Servers/WSServer.py" />
-        <option value="$PROJECT_DIR$/PiCom/DataObject.py" />
         <option value="$PROJECT_DIR$/PiCom/PayloadObject.py" />
         <option value="$PROJECT_DIR$/PiCom/Clients/PiDiscovery.py" />
         <option value="$PROJECT_DIR$/PiCom/DeligationUtils/devices" />
@@ -220,9 +206,11 @@
         <option value="$PROJECT_DIR$/PiCom/Data/__init__.py" />
         <option value="$PROJECT_DIR$/PiCom/Servers/__init__.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/PiCom/Servers/LAN_Server.py" />
         <option value="$PROJECT_DIR$/PiCom/Delegation/PiDiscovery.py" />
         <option value="$PROJECT_DIR$/client_test.py" />
+        <option value="$PROJECT_DIR$/PiCom/Servers/LAN_Server.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/255816a9-1f7f-4a1e-a100-e2372f931f88/console.sql" />
+        <option value="$PROJECT_DIR$/PiCom/Jobs/__init__.py" />
       </list>
     </option>
   </component>
@@ -232,10 +220,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1611" />
-    <option name="y" value="87" />
-    <option name="width" value="1280" />
-    <option name="height" value="851" />
+    <option name="x" value="1279" />
+    <option name="y" value="25" />
+    <option name="width" value="1922" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -345,6 +333,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Jobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PiCom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Delegation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -387,6 +393,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Project Files">
@@ -402,9 +411,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -414,7 +420,7 @@
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Pictures" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -425,25 +431,7 @@
       <recent name="$PROJECT_DIR$/PiCom/Servers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration default="false" name="Reciever" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Servers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Controller" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Servers/LAN.py" />
-      <option name="PARAMETERS" value="0.0.0.0 8000" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.WSServer">
     <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -517,6 +505,24 @@
       <module name="Controller" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PiCom/Servers/LAN_Server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="WSServer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PiCom/Servers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Controller" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PiCom/Servers/WSServer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -739,19 +745,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Controller" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Reciever" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.client_test" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in PayloadTests" />
-      <item index="5" class="java.lang.String" itemvalue="Python.LAN" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.client_test" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in PayloadTests" />
+      <item index="4" class="java.lang.String" itemvalue="Python.LAN" />
+      <item index="5" class="java.lang.String" itemvalue="Python.WSServer" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.client_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.LAN" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in PayloadTests" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Reciever" />
+        <item index="0" class="java.lang.String" itemvalue="Python.WSServer" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.client_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LAN" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in PayloadTests" />
       </list>
     </recent_temporary>
   </component>
@@ -883,16 +889,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1611" y="87" width="1280" height="851" extended-state="0" />
-    <editor active="false" />
+    <frame x="1279" y="25" width="1922" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18042071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12353568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39539748" sideWeight="0.50312823" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4282655" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.2719486" sideWeight="0.4978701" order="3" side_tool="false" content_ui="tabs" x="1480" y="160" width="1219" height="898" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.2719486" sideWeight="0.4978701" order="3" side_tool="false" content_ui="tabs" x="2286" y="98" width="887" height="411" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -950,33 +956,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PiCom/Servers/LAN_Server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#391#1706#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PiCom/Data/Structure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#313#414#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1027,7 +1012,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1261,13 +1246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PiCom/Servers/WSServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19889502">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://Python/#/home/dylan/PycharmProjects/Lockard-Home-Automation/Controller/PiCom/Clients">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1351,56 +1329,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://Python/#/home/dylan/PycharmProjects/Lockard-Home-Automation/Controller/PiCom">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>#/home/dylan/PycharmProjects/Lockard-Home-Automation/Controller/PiCom</OriginalElement>
-          <nodes>
-            <node x="" y="">tornado.web.RequestHandler</node>
-            <node x="" y="">PiCom.Data.Structure.PayloadFields</node>
-            <node x="" y="">PiCom.Data.Structure.PayloadType</node>
-            <node x="" y="">_collections_abc.Hashable</node>
-            <node x="" y="">PiCom.Servers.SystemControllerUtils.GPIO_Responder</node>
-            <node x="" y="">PiCom.Servers.LAN.Client</node>
-            <node x="" y="">enum.EnumMeta</node>
-            <node x="" y="">PiCom.Clients.LANClient.LANClientHandler</node>
-            <node x="" y="">PiCom.Servers.WSServer.EventHandler</node>
-            <node x="" y="">PiCom.Servers.WebSocket</node>
-            <node x="" y="">PiCom.Servers.SystemControllerUtils.GPIO_Handler</node>
-            <node x="" y="">PiCom.Servers.LANServer</node>
-            <node x="" y="">tornado.websocket.WebSocketHandler</node>
-            <node x="" y="">enum.Enum</node>
-            <node x="" y="">PiCom.Clients.LANClient.LANClient</node>
-            <node x="" y="">object</node>
-            <node x="" y="">threading.Thread</node>
-            <node x="" y="">PiCom.Data.PayloadEncoder</node>
-            <node x="" y="">PiCom.Data.Structure.PayloadEvent</node>
-            <node x="" y="">PiCom.Data.PayloadEventMessages</node>
-            <node x="" y="">PiCom.Data.Payload</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.6327253502511236" x="1405.0" y="2208.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3.4/threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3329646">
           <caret line="919" column="0" selection-start-line="919" selection-start-column="0" selection-end-line="919" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PiCom/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1411,19 +1343,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PiCom/Clients/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17900552">
-          <caret line="9" column="114" selection-start-line="9" selection-start-column="114" selection-end-line="9" selection-end-column="114" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PiCom/Servers/SystemControllerUtils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.840884">
           <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1443,24 +1366,220 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PiCom/Servers/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PiCom/Data/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3325967">
           <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#384#415#0" expanded="false" />
-            <element signature="e#3593#3753#0" expanded="false" />
-            <element signature="e#3853#3976#0" expanded="false" />
-            <element signature="e#4016#4399#0" expanded="false" />
+            <element signature="e#0#53#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#/home/dylan/PycharmProjects/Lockard-Home-Automation/Controller/PiCom">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#/home/dylan/PycharmProjects/Lockard-Home-Automation/Controller/PiCom</OriginalElement>
+          <nodes>
+            <node x="1061.916666666666" y="1171.0">tornado.web.RequestHandler</node>
+            <node x="826.9999999999995" y="3873.0">PiCom.Data.Structure.PayloadFields</node>
+            <node x="0.0" y="3873.0">PiCom.Data.Structure.PayloadType</node>
+            <node x="3174.916666666666" y="0.0">_collections_abc.Hashable</node>
+            <node x="557.9999999999995" y="3873.0">PiCom.Data.Structure.EventTypes</node>
+            <node x="240.5044444444443" y="150.0">enum.EnumMeta</node>
+            <node x="2107.416666666666" y="4264.0">PiCom.Servers.WSServer.EventHandler</node>
+            <node x="5629.666666666666" y="3780.5">PiCom.Servers.LAN_Server.Client</node>
+            <node x="4907.916666666666" y="2356.0">PiCom.Servers.WebSocket</node>
+            <node x="6700.916666666666" y="2333.0">PiCom.Servers.SystemControllerUtils.Responder</node>
+            <node x="3476.916666666666" y="2217.5">PiCom.Servers.LANServer</node>
+            <node x="1871.916666666666" y="3654.0">tornado.websocket.WebSocketHandler</node>
+            <node x="7650.916666666666" y="3895.5">PiCom.Clients.LANClient</node>
+            <node x="594.5044444444443" y="2264.0">enum.Enum</node>
+            <node x="276.0" y="3896.0">PiCom.Data.Structure.EventDomain</node>
+            <node x="6658.666666666666" y="3907.5">PiCom.Servers.SystemControllerUtils.SYS_Handler</node>
+            <node x="7510.916666666666" y="2240.5">PiCom.Clients.LAN_Client.Client</node>
+            <node x="7061.916666666666" y="2356.0">PiCom.Clients.LAN_Client.LANClientHandler</node>
+            <node x="5518.416666666666" y="334.0">object</node>
+            <node x="5128.916666666666" y="1918.5">threading.Thread</node>
+            <node x="8650.916666666666" y="2356.0">PiCom.Data.PayloadEncoder</node>
+            <node x="1165.916666666666" y="3723.5">PiCom.Data.Structure.PayloadEvent</node>
+            <node x="1589.916666666666" y="3850.0">PiCom.Data.PayloadEventMessages</node>
+            <node x="8413.916666666666" y="3849.5">PiCom.Data.Payload</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="enum.Enum" target="object">
+              <point x="112.66666666666663" y="-118.5" />
+              <point x="876.1711111111108" y="1121.0" />
+              <point x="5558.805555555555" y="1121.0" />
+              <point x="-323.1111111111113" y="291.5" />
+            </edge>
+            <edge source="PiCom.Data.PayloadEncoder" target="object">
+              <point x="0.0" y="-26.5" />
+              <point x="8757.916666666666" y="1121.0" />
+              <point x="6205.027777777777" y="1121.0" />
+              <point x="323.1111111111113" y="291.5" />
+            </edge>
+            <edge source="PiCom.Data.Structure.PayloadFields" target="enum.Enum">
+              <point x="0.0" y="-61.0" />
+              <point x="957.9999999999995" y="3634.0" />
+              <point x="791.6711111111113" y="3634.0" />
+              <point x="28.166666666666742" y="118.5" />
+            </edge>
+            <edge source="tornado.web.RequestHandler" target="object">
+              <point x="0.0" y="-1211.5" />
+              <point x="2259.416666666666" y="1131.0" />
+              <point x="5639.583333333333" y="1131.0" />
+              <point x="-242.33333333333303" y="291.5" />
+            </edge>
+            <edge source="PiCom.Clients.LAN_Client.Client" target="object">
+              <point x="0.0" y="-142.0" />
+              <point x="8022.416666666666" y="1131.0" />
+              <point x="6124.249999999999" y="1131.0" />
+              <point x="242.33333333333303" y="291.5" />
+            </edge>
+            <edge source="PiCom.Data.Payload" target="PiCom.Data.PayloadEncoder">
+              <point x="0.0" y="-84.5" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="PiCom.Data.Structure.PayloadEvent" target="enum.Enum">
+              <point x="0.0" y="-210.5" />
+              <point x="1367.916666666666" y="3624.0" />
+              <point x="848.0044444444443" y="3624.0" />
+              <point x="84.5" y="118.5" />
+            </edge>
+            <edge source="PiCom.Servers.SystemControllerUtils.SYS_Handler" target="PiCom.Servers.SystemControllerUtils.Responder">
+              <point x="0.0" y="-26.5" />
+              <point x="85.25" y="49.5" />
+            </edge>
+            <edge source="PiCom.Servers.LAN_Server.Client" target="threading.Thread">
+              <point x="-252.25" y="-153.5" />
+              <point x="0.0" y="464.0" />
+            </edge>
+            <edge source="tornado.websocket.WebSocketHandler" target="tornado.web.RequestHandler">
+              <point x="0.0" y="-280.0" />
+              <point x="0.0" y="1211.5" />
+            </edge>
+            <edge source="PiCom.Servers.LAN_Server.Client" target="PiCom.Servers.SystemControllerUtils.Responder">
+              <point x="252.25" y="-153.5" />
+              <point x="6386.416666666666" y="3634.0" />
+              <point x="6786.166666666666" y="3634.0" />
+              <point x="-85.25" y="49.5" />
+            </edge>
+            <edge source="object" target="_collections_abc.Hashable">
+              <point x="0.0" y="-291.5" />
+              <point x="5881.916666666666" y="125.0" />
+              <point x="3315.166666666666" y="125.0" />
+              <point x="46.75" y="50.0" />
+            </edge>
+            <edge source="PiCom.Data.Structure.EventTypes" target="enum.Enum">
+              <point x="0.0" y="-61.0" />
+              <point x="682.4999999999995" y="3634.0" />
+              <point x="735.3377777777778" y="3634.0" />
+              <point x="-28.16666666666663" y="118.5" />
+            </edge>
+            <edge source="PiCom.Servers.WebSocket" target="object">
+              <point x="0.0" y="-26.5" />
+              <point x="5008.416666666666" y="1151.0" />
+              <point x="5801.138888888889" y="1151.0" />
+              <point x="-80.77777777777737" y="291.5" />
+            </edge>
+            <edge source="threading.Thread" target="object">
+              <point x="0.0" y="-464.0" />
+              <point x="0.0" y="291.5" />
+            </edge>
+            <edge source="PiCom.Clients.LANClient" target="PiCom.Clients.LAN_Client.Client">
+              <point x="0.0" y="-38.5" />
+              <point x="0.0" y="142.0" />
+            </edge>
+            <edge source="PiCom.Data.Structure.EventDomain" target="enum.Enum">
+              <point x="0.0" y="-38.0" />
+              <point x="407.0" y="3624.0" />
+              <point x="679.0044444444443" y="3624.0" />
+              <point x="-84.5" y="118.5" />
+            </edge>
+            <edge source="enum.Enum" target="_collections_abc.Hashable">
+              <point x="-112.66666666666697" y="-118.5" />
+              <point x="650.8377777777773" y="1151.0" />
+              <point x="230.0044444444443" y="1151.0" />
+              <point x="230.0044444444443" y="125.0" />
+              <point x="3221.666666666666" y="125.0" />
+              <point x="-46.75" y="50.0" />
+            </edge>
+            <edge source="PiCom.Servers.WSServer.EventHandler" target="tornado.websocket.WebSocketHandler">
+              <point x="0.0" y="-72.5" />
+              <point x="0.0" y="280.0" />
+            </edge>
+            <edge source="PiCom.Servers.SystemControllerUtils.Responder" target="object">
+              <point x="0.0" y="-49.5" />
+              <point x="6871.416666666666" y="1151.0" />
+              <point x="5962.694444444443" y="1151.0" />
+              <point x="80.77777777777737" y="291.5" />
+            </edge>
+            <edge source="PiCom.Servers.LANServer" target="object">
+              <point x="0.0" y="-165.0" />
+              <point x="4182.416666666666" y="1141.0" />
+              <point x="5720.36111111111" y="1141.0" />
+              <point x="-161.55555555555566" y="291.5" />
+            </edge>
+            <edge source="enum.Enum" target="enum.EnumMeta">
+              <point x="0.0" y="-118.5" />
+              <point x="0.0" y="475.5" />
+            </edge>
+            <edge source="PiCom.Clients.LAN_Client.LANClientHandler" target="object">
+              <point x="0.0" y="-26.5" />
+              <point x="7276.416666666666" y="1141.0" />
+              <point x="6043.472222222222" y="1141.0" />
+              <point x="161.55555555555566" y="291.5" />
+            </edge>
+            <edge source="PiCom.Data.Structure.PayloadType" target="enum.Enum">
+              <point x="0.0" y="-61.0" />
+              <point x="128.0" y="3614.0" />
+              <point x="622.6711111111108" y="3614.0" />
+              <point x="-140.83333333333337" y="118.5" />
+            </edge>
+            <edge source="PiCom.Data.PayloadEventMessages" target="enum.Enum">
+              <point x="0.0" y="-84.0" />
+              <point x="1720.916666666666" y="3614.0" />
+              <point x="904.3377777777778" y="3614.0" />
+              <point x="140.83333333333337" y="118.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9396482813749001" x="868.0" y="494.0" />
+          <SelectedNodes>
+            <node>enum.EnumMeta</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PiCom/Servers/WSServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1474,17 +1593,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PiCom/Data/Structure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+          <folding>
+            <element signature="e#313#414#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PiCom/Delegation/PiDiscovery.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68176794">
-          <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+          <folding>
+            <element signature="e#371#647#0" expanded="false" />
+            <element signature="e#678#1261#0" expanded="false" />
+            <element signature="e#1290#1308#0" expanded="false" />
+            <element signature="e#1370#1677#0" expanded="false" />
+            <element signature="e#1714#1817#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PiCom/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PiCom/Servers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37706727">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/255816a9-1f7f-4a1e-a100-e2372f931f88/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PiCom/Servers/LAN_Server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <element signature="e#391#1706#1" expanded="false" />
@@ -1492,32 +1652,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PiCom/Data/Structure.py">
+    <entry file="file://$PROJECT_DIR$/PiCom/Clients/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <element signature="e#313#414#0" expanded="false" />
-          </folding>
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client_test.py">
+    <entry file="file://$PROJECT_DIR$/PiCom/Jobs/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.97458565">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2820513">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
